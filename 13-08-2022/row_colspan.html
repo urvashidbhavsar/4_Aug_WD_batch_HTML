@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- rowspan used for merge/joint a row -->
+    <!-- colspan used for merge/joint a column  -->
+    <!-- both attribute used with <td> or <th> tag -->
+
+    <!-- when used rowspan to join row then from next row remove 1 column -->
+
+    <!-- when used colspan to join column then remove 1 column in that row -->
+    <!-- <center><i>A test Table with merge cell</i></center> -->
+    <table border="1">
+      <!-- give heading of table -->
+      <caption>
+        <i> A test Table with merge cell </i>
+      </caption>
+      <!-- 1st row -->
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Avarage</th>
+        <th rowspan="2">Red eyes</th>
+      </tr>
+      <!-- 2nd row -->
+      <tr>
+        <th>Height</th>
+        <th>Width</th>
+      </tr>
+      <!-- 3rd row -->
+      <tr>
+        <td><b>Males</b></td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <!-- 4th row -->
+      <tr>
+        <td><b>Females</b></td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+  </body>
+</html>
