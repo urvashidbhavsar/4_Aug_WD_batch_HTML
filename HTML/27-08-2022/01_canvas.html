@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- draw a 2D graphics -->
+    <canvas
+      id="mycanvas"
+      height="300px"
+      width="500px"
+      style="border: 2px solid black"
+    ></canvas>
+
+    <script>
+      var rect = document.getElementById("mycanvas");
+      var drawrect = rect.getContext("2d");
+      drawrect.fillStyle = "blue";
+      //   drawrect.fillRect();
+      drawrect.fillRect(0, 0, 300, 200);
+    </script>
+  </body>
+</html>
