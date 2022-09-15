@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: aquamarine;
+  height: 70px;
+  width: 100%;
+}
+header .back-cover {
+  width: 100%;
+  display: flex;
+}
+header .logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+header .back-cover ul {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: end;
+}
+header .back-cover li {
+  padding-left: 30px;
+}
+header .back-cover .logo {
+  width: 20%;
+}
+header .back-cover .nav {
+  width: 80%;
+}
+header .back-cover .log {
+  color: red;
+  font-size: 30px;
+}
