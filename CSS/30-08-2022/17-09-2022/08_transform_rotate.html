@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* transform -> in which way animation work */
+      .div1 {
+        height: 150px;
+        width: 150px;
+        border: 2px solid teal;
+        background-color: darkslategray;
+        margin: 200px auto;
+        transition: 3s all ease;
+      }
+      .div1:hover {
+        /* set degree in 0deg to 360deg */
+        /* transform: rotate(20deg); */
+        /* transform: rotateX36); */
+
+        /* transform: rotateY(180deg); */
+
+        transform: rotateZ(360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">Rotate Effect</div>
+  </body>
+</html>
