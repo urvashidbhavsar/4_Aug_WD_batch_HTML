@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        background-color: cornflowerblue;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+      li {
+        display: inline-block;
+        padding: 10px;
+        background-color: antiquewhite;
+      }
+      .btnclick {
+        position: relative;
+      }
+      .btnmenu {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: none;
+      }
+      .btnmenu {
+        height: auto;
+        width: 100px;
+        background-color: aqua;
+        box-shadow: 2px 2px 5px gray;
+        padding: 10px;
+      }
+      .btnclick:hover .btnmenu {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="btnclick">
+        <a href="" class="btnhover"> Products</a>
+        <div class="btnmenu">
+          <a href="">Product 1</a>
+          <hr color="gray" />
+          <a href="">Product 2</a>
+        </div>
+      </li>
+      <li><a href="">Help</a></li>
+    </ul>
+  </body>
+</html>
