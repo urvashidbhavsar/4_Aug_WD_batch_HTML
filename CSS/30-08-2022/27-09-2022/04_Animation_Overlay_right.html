@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+      .image {
+        height: 300px;
+        width: 300px;
+        position: relative;
+      }
+      .text {
+        color: white;
+        /* used for hide text */
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        /* left: 0; */
+        right: 0;
+        height: 100%;
+        width: 0;
+        transition: 1s all ease;
+        background-color: green;
+        opacity: 0.7;
+      }
+      .image:hover .text {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image">
+      <img src="images/img3.jpg" alt="" class="img-1" />
+      <div class="text">
+        <h3>Top to Bottom overlay</h3>
+      </div>
+    </div>
+  </body>
+</html>
