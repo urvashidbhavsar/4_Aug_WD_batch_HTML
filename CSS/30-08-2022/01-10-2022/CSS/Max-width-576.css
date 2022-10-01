@@ -1,0 +1,67 @@
+@media (max-width: 576px) {
+  header .back-image {
+    width: 100%;
+    height: 550px;
+    background-position: center;
+  }
+  header .back-image .navigation .info {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  header .back-image .info .info-left {
+    width: 100%;
+  }
+  header .back-image .info .info-right {
+    width: 100%;
+  }
+  header .back-image .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  header .back-image .menu .logo {
+    width: 100%;
+  }
+  header .back-image .menu .nav-menu {
+    width: 100%;
+  }
+  header .back-image .menu .nav-menu a {
+    font-size: 12px;
+  }
+  header .back-image .menu .nav-menu li {
+    margin-top: 5px;
+    padding: 0;
+  }
+  .history-sec {
+    padding: 0px;
+    width: 100%;
+  }
+  .history-sec .text-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .history-sec .text-main .text-head {
+    width: 100%;
+  }
+  .history-sec .text-main .text-content {
+    width: 100%;
+    padding: 0;
+  }
+  .history-sec .text-main .text-head h1 {
+    margin: 0px;
+  }
+  .history-sec .text-main .text-content p {
+    color: gray;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .img-sec .image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
