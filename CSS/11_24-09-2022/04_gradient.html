@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* gradient is a combination of two or more colors 
+        three ways to add gradient color */
+      div {
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        margin: 20px;
+      }
+      .radial {
+        background-image: radial-gradient(
+          #123456 52px,
+          #125689 91px,
+          #9807aa 128px
+        );
+      }
+      .linear {
+        background-image: linear-gradient(
+          to top,
+          #aabbcc 10px,
+          #ba3456 57px,
+          #98ab12 130px,
+          #56ef11 244px
+        );
+      }
+      .conic {
+        background-image: conic-gradient(
+          #45efde 85deg,
+          #56ff12 172deg,
+          #bbffaa 294deg,
+          #778811 346deg
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="radial"></div>
+    <div class="linear"></div>
+    <div class="conic"></div>
+  </body>
+</html>
