@@ -1,0 +1,9 @@
+position property values are :- set a some position
+ 
+with position property we need to set some specific position like top, left, bottom, right 
+
+relative - 
+absolute - 
+static - set static position
+sticky - stick at some position
+fixed - set a fix position
