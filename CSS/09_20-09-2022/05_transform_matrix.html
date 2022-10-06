@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        border: 1px solid violet;
+        background-color: blueviolet;
+        margin: 200px auto;
+        height: 100px;
+        width: 100px;
+        transition: 1s ease all;
+      }
+      .div1:hover {
+        /* scaleX, skewX, skewY, scaleY, translateX, translateY */
+        transform: matrix(0.5, 2, 2, 0.5, 10, 10);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">Skew effect</div>
+  </body>
+</html>

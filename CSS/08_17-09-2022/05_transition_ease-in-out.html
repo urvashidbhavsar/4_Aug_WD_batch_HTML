@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* transition used for smooth animation move */
+      div {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(4, 0, 255);
+      }
+      .div1 {
+        transition: all 2s ease;
+      }
+      .div1:hover {
+        width: 200px;
+        background-color: rgb(203, 125, 30);
+      }
+      .div2 {
+        transition: all 2s ease-in;
+      }
+      .div2:hover {
+        width: 200px;
+        background-color: rgb(203, 125, 30);
+      }
+      .div3 {
+        transition: all 2s ease-out;
+      }
+      .div3:hover {
+        width: 200px;
+        background-color: rgb(203, 125, 30);
+      }
+      .div4 {
+        transition: all 2s ease-in-out;
+      }
+      .div4:hover {
+        width: 200px;
+        background-color: rgb(203, 125, 30);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+    <br />
+
+    <div class="div2"></div>
+    <br />
+
+    <div class="div3"></div>
+    <br />
+
+    <div class="div4"></div>
+  </body>
+</html>

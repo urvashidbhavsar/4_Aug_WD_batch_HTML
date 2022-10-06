@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* flex - as flexible display */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        background-color: blue;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        /* display: inline; */
+      }
+      /* parent child */
+      .main .sub1 {
+        background-color: aquamarine;
+        width: 33.3%;
+        height: 100px;
+      }
+      .main .sub2 {
+        background-color: bisque;
+        height: 100px;
+        width: 33.3%;
+      }
+      .main .sub3 {
+        background-color: blueviolet;
+        height: 100px;
+        width: 33.3%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sub1">Sub1</div>
+      <div class="sub2">Sub2</div>
+      <div class="sub3">Sub3</div>
+    </div>
+  </body>
+</html>
