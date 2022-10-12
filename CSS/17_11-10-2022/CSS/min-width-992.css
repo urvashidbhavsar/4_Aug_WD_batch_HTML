@@ -1,0 +1,116 @@
+@media (min-width: 992px) {
+  header .back-image {
+    width: 100%;
+    height: 650px;
+  }
+  header .back-image .navigation .info {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: row;
+  }
+  header .back-image .info .info-left {
+    width: 70%;
+  }
+  header .back-image .info .info-right {
+    width: 30%;
+  }
+  header .back-image .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  header .back-image .menu .logo {
+    width: 30%;
+  }
+  header .back-image .menu .nav-menu {
+    width: 70%;
+  }
+  header .back-image .menu .nav-menu a {
+    font-size: 15px;
+  }
+  header .back-image .menu .nav-menu li {
+    padding: 20px;
+  }
+  .history-sec {
+    padding: 50px;
+    width: 100%;
+  }
+  .history-sec .text-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .history-sec .text-main .text-head {
+    width: 100%;
+  }
+  .history-sec .text-main .text-content {
+    width: 100%;
+    padding: 0;
+  }
+  .history-sec .text-main .text-head h1 {
+    margin: 50px;
+  }
+  .history-sec .text-main .text-content p {
+    color: gray;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .img-sec .image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  .services .ser-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .services .ser-info .ser-detail {
+    padding: 40px;
+  }
+  .chef-info .chef-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .special_menu ul li {
+    display: inline-block;
+    padding: 60px;
+  }
+  .special_menu .menu-sp {
+    margin: 0px 120px 0px 120px;
+  }
+  .special_menu .main-sp-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .gallery {
+    padding: 40px;
+  }
+  .gallery .gallery-img {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+  .book {
+    height: 500px;
+  }
+  .book form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .book form .form-time,
+  .form-date,
+  .form-select {
+    margin: 0px;
+  }
+  .book .book-info {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+}
