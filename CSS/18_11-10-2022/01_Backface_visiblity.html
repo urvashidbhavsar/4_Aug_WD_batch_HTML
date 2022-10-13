@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        height: 150px;
+        width: 150px;
+        background-color: cadetblue;
+        margin: 200px auto;
+        transition: 1s all ease;
+        /* by default value is visible
+        hidden used for hide a back value */
+        backface-visibility: hidden;
+      }
+      .div1:hover {
+        transform: rotateX(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">div 1</div>
+  </body>
+</html>

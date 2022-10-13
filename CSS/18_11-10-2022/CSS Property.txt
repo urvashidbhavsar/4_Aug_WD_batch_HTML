@@ -1,0 +1,36 @@
+background
+border
+text
+font
+table-property
+overflow
+outline
+psudo-classes
+psudo-element
+counter
+filter
+cursor
+transition
+transform
+animation
+display
+float
+flex-direction
+grid-template-column
+gap
+dropdownMenu
+OverlayEffect
+ImageZoom Effect
+backgrond-origin and clip
+margin
+padding
+backface-visibility
+z-index
+opacity
+line-height
+word-spacing
+letter-spacing
+used with display flex : align-item, justify-content
+counter - before after : content
+clip
+clippath
