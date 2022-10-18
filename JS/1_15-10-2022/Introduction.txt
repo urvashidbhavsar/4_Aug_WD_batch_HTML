@@ -1,0 +1,26 @@
+what is a javascript ?
+-> it is a scripting language.
+
+used for make a website dynamically.
+
+javascript developed in year 1995 by netscape.
+
+1st name of javascript was livescript. also called object-based scripting language.
+
+object???
+object is a physical or logical items.
+for ex, chair -> size, color, design, price, shape, brand
+person -> name, address, dob, age, gender,....
+house -> type, rooms, size, person, price, area
+
+logical -> date and time
+
+how many ways to create javascript?
+(1) inline - apply with events
+(2) internal - apply with <script> tag
+(3) External - apply with creating external file with .js extension and called with <script> tag.
+
+javascript written in <script> tag.
+<script> tag apply in <head> or <body>.
+
+important points for scripting -> keywords, variable, events, event handler, datatype, operator, conditions, selectors.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- variable is a container/word to store any data 
+    
+        in variable we can not used keywords.
+        
+        right name -> MyVariable, myvariable, my-var, my_var, myvar1, myvar_1
+
+        wrong name -> 1_myvar, my var, #myvar, $myvar 
+    
+        in javascript to create a variable mainly 3 keywords are used -> var, let and const
+    -->
+    <script>
+      // keyword variable_name assign(=) value; -> syntax
+
+      //   var keyword used from develping time
+      // let and const introduced/updated from 2015
+
+      // in programming language any variable has assign th value, but not redeclare.
+
+      // using var keyword we can redeclared and reassign the value.
+      var var_1 = 4;
+      document.writeln(var_1);
+
+      var var_1 = 5;
+      document.writeln(var_1);
+
+      //   using let keyword we can reassign the value but not redeclare.
+      let var_2 = 6;
+      document.writeln(var_2);
+
+      var_2 = 7;
+      document.writeln(var_2);
+
+      //   const means constant value -> fix value
+      //   using const keyword we can not redeclare or reassign
+      const PI = 3.14;
+      document.writeln(PI);
+
+      PI = 22.5;
+      document.writeln(PI);
+    </script>
+  </body>
+</html>

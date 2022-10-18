@@ -1,0 +1,34 @@
+Datatype -> 
+1) string -> collection of character
+    for ex, "this is js language introduced in 1995!!!"
+
+2) number -> 12, 12.22
+    js auto understand number is float or not.
+
+3) boolean -> it has two only posible value true or false.
+        statement are true or not.
+
+4) null -> value are empty or not.
+
+5) undefined -> value not defined.
+
+operator -> which is operate a data/code
+
+(1) arithmetic => _____ +, -, *, /, %(modules), ++(increment), --(decrement)
+
+(2) comparision => 
+     < - less than
+     > - greater than
+     <= - less than equal to
+     >= - greater than equal to
+     == - equal to
+     != - not equal to
+
+(3) logical =>
+    && (and), ||(or), !(not)
+
+(4) assignment / conditional =>
+    = - assign
+    +=, -=, *=, /=, %=
+
+(5) Bitwise -> &(and), |(or), !(not), ^(Xor)
