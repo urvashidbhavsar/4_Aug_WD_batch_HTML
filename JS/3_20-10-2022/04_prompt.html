@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function prompt_check() {
+        let name_disp = prompt("enter your name");
+        if (name_disp == "") {
+          alert("enter your name");
+        } else {
+          document.getElementById("p1").innerHTML = name_disp;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="prompt_check()">Prompt popup</button>
+
+    <p id="p1"></p>
+  </body>
+</html>

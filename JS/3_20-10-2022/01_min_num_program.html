@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function min_num() {
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+
+        if (num1 < num2) {
+          document.getElementById("num1_msg").innerHTML = num1 + " is minimum";
+        } else if (num2 < num1) {
+          document.getElementById("num1_msg").innerHTML = num1 + " is minimum";
+        } else {
+          document.getElementById("num1_msg").innerHTML =
+            num1 + " and " + num2 + " are same ";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <label for="">Number 1: </label>
+    <input type="text" name="" id="num1" />
+
+    <br /><br />
+    <label for="">Number 2: </label>
+    <input type="text" name="" id="num2" />
+
+    <br /><br />
+    <button type="submit" onclick="min_num()">Result</button>
+
+    <p id="num1_msg"></p>
+  </body>
+</html>

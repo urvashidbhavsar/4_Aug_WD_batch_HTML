@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script>
+      let btn = document.querySelector(".btn1");
+
+      btn.addEventListener("click", function () {
+        document.getElementById("p1").innerHTML = "hello user";
+      });
+    </script> -->
+  </head>
+  <body>
+    <!-- <script>
+      let btn = document.querySelector(".btn1");
+
+      btn.addEventListener("click", function () {
+        document.getElementById("p1").innerHTML = "hello user";
+      });
+    </script> -->
+
+    <button class="btn1">Click Here</button>
+    <p id="msg"></p>
+
+    <!-- type addeventlistner  code is in bottom of the body. -->
+    <script>
+      let btn = document.querySelector(".btn1");
+
+      btn.addEventListener("click", function () {
+        document.querySelector("#msg").innerHTML = "hello user";
+      });
+    </script>
+  </body>
+</html>
