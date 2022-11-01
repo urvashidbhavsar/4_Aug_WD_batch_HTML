@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .login-page {
+        height: auto;
+        width: 250px;
+        border: 2px double blue;
+        padding: 20px;
+        margin: 200px auto;
+      }
+      input {
+        border-radius: 10px;
+        border: 1px solid gray;
+      }
+      input[type="text"],
+      [type="password"] {
+        padding: 5px;
+        margin: 5px;
+        width: 230px;
+      }
+      input[type="submit"] {
+        padding: 5px;
+        margin: 5px;
+        width: 245px;
+        color: white;
+        background-color: blue;
+        border: none;
+      }
+      span {
+        color: red;
+        padding-left: 5px;
+      }
+    </style>
+
+    <script>
+      function check_login() {
+        let uname = document.form1.username.value;
+        if (uname == "") {
+          document.getElementById("msg1").innerHTML = "Enter username";
+          document.form1.username.focus();
+          return false;
+        }
+
+        let pass = document.form1.pass.value;
+        if (pass == "") {
+          document.getElementById("msg2").innerHTML = "Enter password";
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="login-page">
+      <form action="" name="form1" onsubmit="return check_login()">
+        <h1>Login Page</h1>
+        <!-- <label for="">username <span>*</span></label> -->
+        <input type="text" name="username" id="" placeholder="Enter Username" />
+        <span id="msg1"></span>
+
+        <input type="password" name="pass" id="" placeholder="Enter password" />
+        <span id="msg2"></span>
+
+        <input type="submit" name="" id="" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
