@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function changeVal() {
+        let value1 = document.getElementById("val").value;
+        let value2 = document.getElementById("val1").value;
+        let res = document.getElementById("res");
+
+        res.value = value1 * value2;
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="val" value="" placeholder="type any value" />
+
+    <input type="text" id="val1" value="30" readonly />
+
+    <input type="text" id="res" value="" onchange="changeVal()" />
+  </body>
+</html>
