@@ -1,0 +1,61 @@
+<!-- fade functions -> fadein(), fadeout(), fadetoggle(), fadeTo() -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+      div {
+        border: 1px solid black;
+        height: 150px;
+        width: 200px;
+      }
+      .div1 {
+        display: none;
+        background-color: blue;
+      }
+      .div2 {
+        /* display: none; */
+        background-color: red;
+      }
+      .div3 {
+        background-color: black;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".btn1").click(function () {
+          $(".div1").fadeIn(3000);
+        });
+
+        $(".btn2").click(function () {
+          $(".div1").fadeOut(2000);
+        });
+
+        $(".btn3").click(function () {
+          $(".div2").fadeToggle(2000);
+        });
+
+        $(".btn4").click(function () {
+          $(".div3,.div2,.div1").fadeTo(2000, 0.95);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button class="btn1">FadeIn</button>
+    <button class="btn2">Fadeout</button>
+    <button class="btn3">FadeToggle</button>
+    <button class="btn4">FadeTo</button>
+    <hr />
+    <div class="div1"></div>
+    <hr />
+    <div class="div2"></div>
+    <hr />
+    <div class="div3"></div>
+  </body>
+</html>
