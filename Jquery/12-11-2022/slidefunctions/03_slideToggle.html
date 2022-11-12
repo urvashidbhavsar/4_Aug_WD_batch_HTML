@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#slidetoggle").click(function () {
+          $(".div1").slideToggle(2000);
+        });
+      });
+    </script>
+    <style>
+      #slidetoggle {
+        width: 30%;
+        height: 30px;
+        background-color: darkgreen;
+      }
+      .div1 {
+        display: none;
+        background-color: darkslategray;
+        height: 200px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="slidetoggle">Slide Toggle</button>
+    <hr />
+    <div class="div1"></div>
+  </body>
+</html>

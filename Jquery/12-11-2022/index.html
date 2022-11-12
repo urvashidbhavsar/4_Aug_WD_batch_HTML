@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./max-width-576.css">
+    <!-- <link rel="stylesheet" href="./min-width-576.css"> -->
+    <link rel="stylesheet" href="./min-width-768.css">
+    <link rel="stylesheet" href="./min-width-992.css">
+    <link rel="stylesheet" href="./min-width-1200.css">
+</head>
+<body>
+    <header>
+        <div class="info">
+         <div class="left-info">
+            <span class="fa-sharp fa-solid fa-location-dot"></span>
+          <p>Pal gam circle, Adajan, Surat.</p>
+          <span class="fa-solid fa-envelope"></span>
+          <a href="">mysoreexpress07@gmail.com</a>  
+        </div> 
+         <div class="right-info">
+            <span class="fa-brands fa-facebook-f"></span>
+            <span class="fa-brands fa-google-plus-g"></span>
+            <span class="fa-brands fa-instagram"></span>
+            <span class="fa-brands fa-twitter"></span>
+            <span class="fa-solid fa-magnifying-glass"></span>
+            </div>
+        </div>
+        <div class="container">
+        <div class="logo">
+        <span>Mysore Express <br>Restaurant</span>
+        </div>
+        <div class="nav-bar">
+        <ul class="top-right-info">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li class="btnclick"><a class="btnhover" href="">DROPDOWN</a><a href=""><span class="fa-solid fa-angle-down"></span></a>
+            <div class="btnmenu">
+                <a href="">Menu</a>
+                <a href="">Booking</a>
+            </div></li>
+            <li><a href="">GALLARY</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <button class="menu-disp">
+        <span class="fa-solid fa-bars"></span>
+    </button>
+</div>
+    <div class="banner-container">
+        <p class="Big-head">Come Hungry. <span>Leave</span> Happy</p>
+            <p class="Small-head">small change, Big diffrences</p>
+        
+    <button>Read More <span class="fa-solid fa-caret-right"></span></button>
+    <button>contact us <span class="fa-solid fa-caret-right"></span></button>
+</div>
+    </header>
+
+    <script>
+        let disp = document.querySelector(".menu-disp");
+        let nav = document.querySelector(".nav-bar");
+
+        disp.addEventListener("click", function () {
+            nav.classList.toggle("menu-list");
+        });
+    </script>
+    <!-- history section -->
+    <section class="history-sec">
+        <div class="text-main">
+            <div class="text-head">
+                <h1>OUR INTRESTING HISTORY</h1>
+            </div>
+                <div class="text-content">
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, unde nesciunt! Mollitia officiis odio, recusandae soluta dignissimos dolorem esse, tenetur voluptatibus placeat nemo labore tempore ullam modi vero non ad.</P>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolore, similique asperiores architecto inventore provident quis eum at sed delectus perspiciatis! Asperiores ipsa a tempore atque natus reprehenderit, amet ratione?</P>
+                </div>
+        </div>
+    </section>
+    <!-- image section -->
+    <section class="img-sec">
+        <div class="image">
+            <div class="img">
+                <img src="menu img-1.jpeg" alt="">
+            </div>
+            <div class="img">
+                <img src="menu img-2.jpeg" alt="">
+            </div>
+            <div class="img">
+                <img src="menu img-3.jpeg" alt="">
+            </div>
+                <div class="img">
+                    <img src="menu img-4.jpeg" alt="">
+                
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <hr/>
+    <section class="services-main">
+        <div class="heading">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et</p>
+        </div>
+        <div class="ser-info">
+            <div class="ser-detail">
+                <span class="fa-solid fa-spoon"></span>
+                <h3>Fresh Products</h3>
+                <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                    diam nec laoreet sodales.</p>
+            </div>
+                <div class="ser-detail">
+                    <span class="fa-brands fa-apple"></span>
+                    <h3>Healthy Food</h3>
+                    <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                        diam nec laoreet sodales.</p>
+                </div>
+                    <div class="ser-detail">
+                        <span class="fa-solid fa-house"></span>
+                        <h3>Traditional Methods</h3>
+                        <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                            diam nec laoreet sodales.</p>
+                    </div>
+                        <div class="ser-detail">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <h3>Advance Booking</h3>
+                            <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                                diam nec laoreet sodales.</p>
+                        </div>
+                            <div class="ser-detail">
+                                <span class="fa-solid fa-face-smile"></span>
+                                <h3>Best Chefs</h3>
+                                <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                                    diam nec laoreet sodales.</p>
+                            </div>
+                             <div class="ser-detail">
+                                    <span class="fa-solid fa-child-reaching"></span>
+                                    <h3>150 Tables</h3>
+                                    <p> Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum
+                                        diam nec laoreet sodales.</p>
+                                </div>
+        </div>
+    </section>
+    <!-- chef section -->
+    <section class="chef-info">
+        <div class="chef-detail">
+            <div class="chef-img">
+                <img src="./chef.jpg" alt="">
+            </div>
+            <div class="chef-history">
+                <h1>For Good Taste</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora minima ab alias iure? Deleniti enim voluptatibus <br>impedit perspiciatis assumenda inventore numquam ipsa <br> cum excepturi ea, nisi recusandae ullam nam iste.</p>
+            <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <section class="Spacial-menu">
+        <div class="Menu-detail">
+            <h1>Special Menu</h1>
+            <ul>
+                <li>Breakfast</li>
+                <li>Dinner</li>
+                <li>Today Special</li>
+                <li>Drinks</li>
+            </ul>
+            <div class="main-sp-menu">
+                <div class="sp-details">
+                    <img src="./menu img-2.jpeg" alt="">
+                    <div class="info">
+                        <h4>choklate dosa............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+                <div class="sp-details">
+                    <img src="./img 1.jpeg" alt="">
+                    <div class="info">
+                        <h4>jini dosa............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+                <div class="sp-details">
+                    <img src="./menu img-1.jpeg" alt="">
+                    <div class="info">
+                        <h4>pizza dosa............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+                <div class="sp-details">
+                    <img src="./menu img-5.jpeg" alt="">
+                    <div class="info">
+                        <h4>idli sambhar............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+                <div class="sp-details">
+                    <img src="./menu img-3.jpeg" alt="">
+                    <div class="info">
+                        <h4>burz khalifa dosa............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+                <div class="sp-details">
+                    <img src="./menu img-4.jpeg" alt="">
+                    <div class="info">
+                        <h4>paper dosa............</h4>
+                        <p>With Wild Mushrooms And Asparagus</p>
+                    </div>
+                    <h3>$50</h3>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- special services section -->
+        <section class="spe-service">
+            <div class="spe-service-main">
+                <div class="spe-heading">
+                    <h1 class="h1">Special Services</h1>
+                </div>
+                <div class="spe-info">
+                    <div class="spe-details">
+                        <h1>Best Chef</h1>
+                        <p>Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec tristique.</p>
+                    </div>
+                    <div class="spe-details">
+                        <h1>150 Tabels</h1>
+                        <p>Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec tristique.</p>
+                    </div>
+                    <div class="spe-details">
+                        <h1>Online Payment</h1>
+                        <p>Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec tristique.</p>
+                    </div>
+                    <div class="spe-details">
+                        <h1>Special Offers</h1>
+                        <p>Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec tristique.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Gallary Section -->
+    <section class="Gallary">
+        <div class="gallary-main">
+            <div class="image">
+                <img src="./menu img-1.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Pizza Dosa</h1>
+            </div>
+            </div>
+            <div class="image">
+                <img src="./menu img-2.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Chocklate Dosa</h1>
+            </div>
+            </div>
+            <div class="image">
+                <img src="./menu img-3.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Burz-khalifa</h1>
+            </div>
+            </div>
+            <div class="image">
+                <img src="./menu img-4.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Paper Dosa</h1>
+            </div>
+            </div>
+            </div>
+            <div class="gallary-main">
+            <div class="image">
+                <img src="./menu img-5.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Idli Sambhar</h1>
+            </div>
+            </div>
+            <div class="image">
+                <img src="./img 1.jpeg" alt="">
+            <div class="image-heading">
+                <h1>Jini Dosa</h1>
+            </div>
+            </div>
+            <div class="image">
+                <p>our <br>specials</p>
+            </div>
+            </div>
+    </section>
+
+    <!-- Table section -->
+    <section class="table">
+        <div class="table-main">
+            <div class="table-head">
+            <h1>PREARRANGE A TABLE</h1>
+        </div>
+        <div class="table-detail">
+        <form action="">
+            <div class="form-time">
+            <span class="fa-solid fa-clock"></span>
+            <input type="time" placeholder="Time">
+        </div>
+        <div class="form-date">
+            <span class="fa-solid fa-calendar"></span>
+            <input type="date" placeholder="date">
+        </div>
+        <div class="form-select">
+            <select name="" id="">
+                <option value="">---NO of Pepole---</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+        </div>
+        </form>
+    </div>
+    <div class="book-info">
+    <div class="table-info">
+        <p><span class="fa-solid fa-circle-check"></span>
+          Over 10,000 restaurants Worldwide
+        </p>
+        <p><span class="fa-solid fa-circle-check"></span>  No booking fees
+        </p>
+    </div>
+        <div class="btnclick">
+        <button>book a table</button>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- Comment Section -->
+    <section class="Comment">
+        <div class="comment-head">
+            <h1>COMMENTS FROM OUR CUSTOMERS</h1>
+            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et</p>
+        </div>
+        <div class="comment-info">
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Paul Demichev</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Oleg Topanic</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Julia Usina</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Serdyuk Elena</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Kulikov Vlad</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+            <div class="comment-detail">
+                <div class="sym">
+                    <span class="fa-solid fa-quote-right"></span>
+                </div>
+                <div class="text">
+                    <h1>Andrey Tikhonov</h1>
+                    <p>ClientSome Company</p>
+                    <p>
+                        Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet
+                        consectetur ultricies nec, convallis sit amet turpis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+        <div class="form-head">
+            <h1>contact us</h1>
+            <div class="contact-main">
+        <div class="contact-form">
+            <p>Please fill this form to contact with us.</p>
+                <form action="">
+                <div class="row">
+                <input type="text" placeholder=" Name">
+                <input type="text" placeholder=" Telephone">
+                <input type="text" placeholder=" Email">
+                <input type="text" placeholder=" Subject">
+                </div>
+                <div class="row1">
+                    <textarea name="" id="" cols="115" rows="10" placeholder=" Message..."></textarea>
+                </div>
+                <div class="row">
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">CLEAR</button>
+                </div>
+                </form>
+                </div>
+                <div class="contact-detail">
+                    <h3 class="h3">Contact info</h3>
+                <div class="cont">
+                    <div class="icon">
+                        <span class="fa-solid fa-home"></span>
+                    </div>
+                    <div class="text">
+                        <h3>Visit us</h3>
+                        <p>Parma Via Modena,BO, Italy</p>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="icon">
+                        <span class="fa-solid fa-envelope"></span>
+                    </div>
+                    <div class="text">
+                        <h3>mail us</h3>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="icon">
+                        <span class="fa-solid fa-phone"></span>
+                    </div>
+                    <div class="text">
+                        <h3>call us</h3>
+                        <p>+18044261149</p>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="icon">
+                        <span class="fa-solid fa-clock"></span>
+                    </div>
+                    <div class="text">
+                        <h3>Work Hours</h3>
+                        <p>Mon-Sat 09:00 AM - 05:00PM</p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29760.750120384466!2d72.80092606418457!3d21.188433823018716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x305daf6521d2d9db!2sMysore%20Express%20Restaurant!5e0!3m2!1sen!2sin!4v1665411677622!5m2!1sen!2sin" width="1400px" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>© 2018 Luscious. All rights reserved | Design by <span>W3layouts.</span></p>
+    </div>
+</body>
+</html>

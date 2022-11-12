@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#slideup").click(function () {
+          $(".div1").slideUp(2000);
+        });
+
+        $("#slidedown").click(function () {
+          $(".div1").slideDown(2000);
+        });
+      });
+    </script>
+    <style>
+      #slideup,
+      #slidedown {
+        width: 30%;
+        height: 30px;
+        background-color: darkgreen;
+      }
+      .div1 {
+        display: none;
+        background-color: darkslategray;
+        height: 200px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="slideup">SlideUp</button>
+    <button id="slidedown">SlideDown</button>
+    <hr />
+    <div class="div1"></div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!-- website -> bxslider.com -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- bxslider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- bxslider css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css"
+    />
+
+    <script>
+      $(document).ready(function () {
+        $(".bxslider").bxSlider({
+          auto: true,
+          mode: "vertical",
+          hideControlOnEnd: false,
+          dots: false,
+        });
+      });
+    </script>
+    <style>
+      img {
+        height: 550px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bxslider">
+      <div class="image">
+        <img src="Images/pexels-benjamin-suter-3617500.jpg" alt="" />
+      </div>
+      <div class="image">
+        <img src="Images/pexels-ian-turnell-709552.jpg" alt="" />
+      </div>
+      <div class="image">
+        <img src="Images/pexels-elena-blessing-2674052.jpg" alt="" />
+      </div>
+      <div class="image">
+        <img src="Images/pexels-james-wheeler-417074.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
