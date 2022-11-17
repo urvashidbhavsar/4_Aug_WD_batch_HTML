@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.home-image {
+  background-image: url(tem_images/HomeImage.jpg);
+  /* filter: brightness(65%); */
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+}
+.header-nav {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+.header-nav .left-logo {
+  width: 20%;
+}
+.header-nav .left-logo a {
+  color: white;
+  font-size: 0.4in;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header-nav .left-logo span {
+  font-family: system-ui;
+  font-weight: lighter;
+}
+.header-nav .middle-nav {
+  padding: 50px;
+  width: 60%;
+}
+.header-nav .middle-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-nav .middle-nav a {
+  color: white;
+}
+.header-nav .right-search {
+  width: 20%;
+  padding: 30px;
+}
+.right-search span {
+  padding: 5px;
+  color: white;
+}
+.right-search button {
+  height: 40px;
+  width: 110px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: #a13535;
+  font-weight: bold;
+}
+.header-scroll {
+  background-color: #a13535;
+  transition: 1s all ease;
+  position: fixed;
+  z-index: 4;
+}
+.header-scroll .left-logo a {
+  color: black;
+}
+
+header .home-content {
+  position: absolute;
+  top: 300px;
+  color: white;
+  z-index: -1;
+}
+header .home-content .home-heading {
+  font-size: 0.5in;
+}
+header .home-content .sub-head {
+  font-size: 0.3in;
+}
+.header-bottom {
+  width: 100%;
+  display: flex;
+}
+.header-bottom .left-image img {
+  height: 170px;
+  width: 250px;
+}
+.header-bottom .middle-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+.header-bottom .middle-content .links {
+  padding: 50px;
+}
+.header-bottom .middle-content .links .facebook {
+  color: blue;
+  text-transform: uppercase;
+}
+.header-bottom .middle-content .links .twitter {
+  color: rgb(11, 80, 107);
+  text-transform: uppercase;
+}
+.header-bottom .middle-content .links .dribble {
+  color: magenta;
+  text-transform: uppercase;
+}
+.header-bottom .middle-content .links .insta {
+  color: darkblue;
+  text-transform: uppercase;
+}
+.header-bottom .right-button button {
+  height: 170px;
+  width: 190px;
+  border: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+.header-bottom .right-button button:hover {
+  background-color: palevioletred;
+}
+.AboutAs {
+  background-color: aliceblue;
+  padding: 50px;
+  display: flex;
+  font-family: calibri;
+}
+.AboutAs .left-about {
+  padding: 20px;
+}
+.AboutAs .left-about img {
+  height: 360px;
+  width: 265px;
+  border-radius: 15px;
+}
+.AboutAs .right-about {
+  padding: 20px;
+}
+.AboutAs .right-about .a-head {
+  color: magenta;
+  padding-bottom: 5px;
+  padding-left: 35px;
+}
+.AboutAs .right-about .bold-head {
+  font-size: 0.4in;
+  padding-left: 35px;
+}
+.AboutAs .right-about span {
+  font-size: 0.4in;
+  font-weight: lighter;
+}
+.AboutAs .right-about .about-information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  padding-left: 35px;
+}
+.AboutAs .right-about .about-information p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: gray;
+}
+.AboutAs .right-about .about-info-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.AboutAs .right-about .about-info-images img {
+  height: 230px;
+  width: 230px;
+  border-radius: 15px;
+}
+.AboutAs .right-about .about-info-images .img-content {
+  padding-top: 10px;
+  text-align: center;
+  width: 222px;
+}

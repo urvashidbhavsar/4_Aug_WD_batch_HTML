@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <script>
+      // original nav header class -> .header-nav
+      // change class -> header-scroll
+      $(document).ready(function () {
+        var $navbar = $(".header-nav");
+        $(window).scroll(function (event) {
+          var $current = $(this).scrollTop();
+          if ($current > 0) {
+            $navbar.addClass("header-scroll");
+          } else {
+            $navbar.removeClass("header-scroll");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- homepage -->
+    <div class="header-nav">
+      <div class="left-logo">
+        <a href="">Passion<span>Kraft</span> </a>
+      </div>
+      <div class="middle-nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Pages</a></li>
+        </ul>
+      </div>
+      <div class="right-search">
+        <span class="fa-solid fa-magnifying-glass"></span>
+        <button>Get in Touch</button>
+        <span class="fa-solid fa-moon"></span>
+      </div>
+    </div>
+    <header class="home-header">
+      <div class="home-image">
+        <div class="container">
+          <div class="navi"></div>
+        </div>
+      </div>
+      <div class="home-content container">
+        <p class="home-heading">Women's<br />fashion 50% off</p>
+        <p class="sub-head">Enjoy this summer trand</p>
+      </div>
+    </header>
+
+    <section class="header-bottom">
+      <div class="left-image">
+        <img src="tem_images/shoeImage.jpg" alt="" />
+      </div>
+      <div class="middle-content">
+        <div class="links">
+          <a href="" class="facebook"
+            ><span class="fa-brands fa-facebook"></span> Facebook</a
+          >
+        </div>
+        <div class="links">
+          <a href="" class="twitter"
+            ><span class="fa-brands fa-twitter"></span> Twitter</a
+          >
+        </div>
+        <div class="links">
+          <a href="" class="dribble"
+            ><span class="fa-solid fa-basketball"></span> Dribble</a
+          >
+        </div>
+        <div class="links">
+          <a href="" class="insta"
+            ><span class="fa-brands fa-instagram"></span> Instagram</a
+          >
+        </div>
+      </div>
+      <div class="right-button">
+        <button>Explore Now</button>
+      </div>
+    </section>
+
+    <!-- about as section -->
+    <section class="AboutAs">
+      <div class="left-about">
+        <img src="tem_images/left-about.jpg" alt="" />
+      </div>
+      <div class="right-about">
+        <p class="a-head">About As</p>
+        <b class="bold-head">We have 10+ Years of</b>
+        <span>Experiance</span>
+        <div class="about-information">
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor.
+          </p>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor.
+          </p>
+        </div>
+
+        <div class="about-info-images">
+          <div class="about-img">
+            <img src="tem_images/right-watch.jpg" alt="" />
+            <div class="img-content">
+              <h3>Watches</h3>
+              <p>Lorem ipsum dolamet consetetur elitrd diam eirmod tempor.</p>
+            </div>
+          </div>
+          <div class="about-img">
+            <img src="tem_images/shoeImage.jpg" alt="" />
+            <div class="img-content">
+              <h3>Watches</h3>
+              <p>Lorem ipsum dolamet consetetur elitrd diam eirmod tempor.</p>
+            </div>
+          </div>
+          <div class="about-img">
+            <img src="tem_images/right-makeup.jpg" alt="" />
+            <div class="img-content">
+              <h3>Watches</h3>
+              <p>Lorem ipsum dolamet consetetur elitrd diam eirmod tempor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

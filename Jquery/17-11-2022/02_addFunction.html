@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+      button {
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+        color: white;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $("#btn1").click(function () {
+          $("ul").append("<li>Append content</li>");
+        });
+        $("#btn2").click(function () {
+          $("ul").prepend("<li>Prepand content</li>");
+        });
+        $("#btn3").click(function () {
+          $("#img1").before(
+            "<img src='img1.jpg' height='230px' width='230px' />"
+          );
+        });
+
+        $("#btn4").click(function () {
+          $("#img1").after(
+            "<img src='img1.jpg' height='180px' width='180px' />"
+          );
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- add function -> append(), prepand(), before(), after() -->
+    <button id="btn1">Append</button>
+    <button id="btn2">Prepand</button>
+    <button id="btn3">Before</button>
+    <button id="btn4">After</button>
+    <hr />
+    <ul>
+      <li>Hello user</li>
+      <li>Hello user!</li>
+    </ul>
+
+    <hr />
+    <img src="img1.jpg" alt="" height="200px" width="200px" id="img1" />
+  </body>
+</html>
