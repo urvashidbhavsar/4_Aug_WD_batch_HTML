@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#btn1").click(function () {
+          //   $("p").parent().css("border-color", "blue");
+          //   $("p").parents().css("border-color", "blue");
+          $("p").parentsUntil().css("border-color", "blue");
+        });
+      });
+    </script>
+    <style>
+      .main-1,
+      .main-2,
+      .sub-1,
+      .sub-2,
+      .sub-3,
+      ul {
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- parent(), parents(), parentuntil() -->
+    <button id="btn1">Click Here</button>
+    <hr />
+    <div class="main-1">
+      <h1>Hello world</h1>
+      <div class="sub-1">
+        <h3>Hello world</h3>
+        <h4>Hello world</h4>
+      </div>
+      <div class="sub-2">
+        <p>Hello world</p>
+      </div>
+      <div class="sub-3">
+        <span>Hello world</span>
+      </div>
+    </div>
+    <br />
+    <div class="main-2">
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+  </body>
+</html>

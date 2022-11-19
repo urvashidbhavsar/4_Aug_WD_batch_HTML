@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        let txt = "";
+        txt += "Height(content) :" + $(".div1").height() + "<br>";
+        txt += "Width(content) :" + $(".div1").width() + "<br>";
+
+        txt +=
+          "innerHeight(padding,content) :" + $(".div1").innerHeight() + "<br>";
+        txt +=
+          "innerWidth(padding,content) :" + $(".div1").innerWidth() + "<br>";
+
+        txt +=
+          "OuterHeight(padding,border,content) :" +
+          $(".div1").outerHeight() +
+          "<br>";
+        txt +=
+          "OuterWidth(padding,border,content) :" +
+          $(".div1").outerWidth() +
+          "<br>";
+
+        txt +=
+          "OuterHeight(margin,padding,border,content) :" +
+          $(".div1").outerHeight(true) +
+          "<br>";
+        txt +=
+          "OuterWidth(margin,padding,border,content) :" +
+          $(".div1").outerWidth(true) +
+          "<br>";
+
+        $(".div1").html(txt);
+      });
+    </script>
+    <style>
+      .div1 {
+        height: 200px;
+        width: 250px;
+        border: 5px ridge black;
+        padding: 20px;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+  </body>
+</html>

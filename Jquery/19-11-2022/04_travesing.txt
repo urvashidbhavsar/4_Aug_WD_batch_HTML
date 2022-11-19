@@ -1,0 +1,16 @@
+tranversing -> move through
+
+in this topic, it indicate parent-child relationship.
+
+ancestors -> parent
+descendent -> child
+siblings -> parellal
+filter -> find
+
+ancestors -> parent(), parents(), parentuntil()
+
+descendent -> find(), children()
+
+siblings -> siblings(), next(), nextall(), nextuntil(), prev(), prevall(), prevuntil()
+
+filter -> first(), last(), filter(), eq(), not()
