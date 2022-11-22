@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      function counter() {
+        var $count = setInterval(function () {
+          var $c = parseInt($(".count").text());
+          $(".count").text((++$c).toString());
+          if ($c == 1000) {
+            clearInterval($count);
+          }
+        }, 120);
+      }
+      counter();
+    </script>
+  </head>
+
+  <body>
+    <div class="count">500</div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="counter"></div>
+
+    <script>
+      // setInterval function used to set time
+      let counts = setInterval(updated, 30);
+      let c = 0;
+      function updated() {
+        var count = document.getElementById("counter");
+        count.innerHTML = ++c;
+        if (c == 1000) {
+          clearInterval(counts);
+        }
+      }
+    </script>
+  </body>
+</html>
