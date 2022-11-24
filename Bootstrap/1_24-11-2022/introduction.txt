@@ -1,0 +1,11 @@
+bootstrap -> mail css library.
+
+it also include js library.
+
+website -> https://getbootstrap.com/
+version -> 5.2.3
+
+cdn ->
+
+online cdn -> copy from original website
+offline cdn -> download a package
