@@ -1,0 +1,23 @@
+.home-page .right-img {
+  background-image: url(images/homeimage.jpg);
+  height: 500px;
+  background-position: center;
+}
+.home-page .uper-head {
+  color: #006989;
+}
+.home-page .main-head {
+  font-size: 50px;
+  font-weight: 300;
+}
+.home-page .main-head span {
+  font-weight: 700;
+}
+.home-page .btn-read {
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  color: #006989;
+  border: 2px solid #006989;
+  border-radius: 10px;
+}
