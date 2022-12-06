@@ -1,0 +1,28 @@
+#header-title .header-con {
+  background-color: #f45d01;
+}
+.header-nav .logo {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+.header-nav .logo span {
+  color: #f45d01;
+}
+.header-nav .btn-ser {
+  border: none;
+  color: white;
+  width: 130px;
+  border-radius: 40px;
+  background: #2d7dd2;
+  height: 45px;
+}
+.header-nav li {
+  padding: 0px 10px;
+}
+.header-nav li a:hover {
+  color: #f45d01 !important;
+}
+.header-nav .btn-ser:hover {
+  background-color: #f45d01;
+}
