@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+}
+#header-title .header-con {
+  background-color: #f45d01;
+}
+.header-nav .logo {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+.header-nav .logo span {
+  color: #f45d01;
+}
+.header-nav .btn-ser {
+  border: none;
+  color: white;
+  width: 130px;
+  border-radius: 40px;
+  background: #2d7dd2;
+  height: 45px;
+}
+.header-nav li {
+  padding: 0px 10px;
+}
+.header-nav li a:hover {
+  color: #f45d01 !important;
+}
+.header-nav .btn-ser:hover {
+  background-color: #f45d01;
+}
+/* sliders */
+.slide-images .img-1 {
+  filter: brightness(60%);
+}
+.img-1 {
+  position: relative;
+}
+.content {
+  height: auto;
+  width: 50%;
+  padding: 30px;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 125px;
+}
+.content p {
+  color: orangered;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.content .btn-read {
+  height: 40px;
+  width: 130px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 40px;
+  font-weight: 600;
+  color: white;
+}
+.content .btn-read:hover {
+  background-color: white;
+  color: orangered;
+}
+/* service info */
+.font-aw {
+  height: 40px;
+  width: 40px;
+}
+.best-qua:hover {
+  background-color: #2d7dd2 !important;
+  color: white !important;
+}
+.slide-images {
+  position: relative;
+}
+.caro-infor {
+  position: absolute;
+  top: 700px;
+  left: 130px;
+  z-index: 10;
+}

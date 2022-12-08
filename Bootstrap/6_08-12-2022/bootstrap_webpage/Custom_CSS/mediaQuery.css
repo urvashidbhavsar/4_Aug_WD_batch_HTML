@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+  #header-title .hide-con {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  #header-title .hide-con {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-title .hide-con {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #header-title .hide-con {
+    display: block;
+  }
+}
