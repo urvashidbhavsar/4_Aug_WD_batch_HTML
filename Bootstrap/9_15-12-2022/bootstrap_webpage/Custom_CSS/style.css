@@ -1,0 +1,215 @@
+a {
+  text-decoration: none;
+}
+#header-title .header-con {
+  background-color: #f45d01;
+}
+.header-nav .logo {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+.header-nav .logo span {
+  color: #f45d01;
+}
+.header-nav .btn-ser {
+  border: none;
+  color: white;
+  width: 130px;
+  border-radius: 40px;
+  background: #2d7dd2;
+  height: 45px;
+}
+.header-nav li {
+  padding: 0px 10px;
+}
+.header-nav li a:hover {
+  color: #f45d01 !important;
+}
+.header-nav .btn-ser:hover {
+  background-color: #f45d01;
+}
+/* sliders */
+.slide-images .img-1 {
+  background-image: url(../Images/banner1.jpg);
+  height: 600px;
+  filter: brightness(60%);
+}
+.slide-images .img-2 {
+  background-image: url(../Images/banner3.jpg);
+  height: 600px;
+  filter: brightness(60%);
+}
+.slide-images .img-3 {
+  background-image: url(../Images/banner4.jpg);
+  height: 600px;
+  filter: brightness(60%);
+}
+.img-1,
+.img-2,
+.img-3 {
+  position: relative;
+}
+.content {
+  height: auto;
+  width: 50%;
+  padding: 30px;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 125px;
+}
+.content p {
+  color: orangered;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.content .btn-read {
+  height: 40px;
+  width: 130px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 40px;
+  font-weight: 600;
+  color: white;
+}
+.content .btn-read:hover {
+  background-color: white;
+  color: orangered;
+}
+/* service info */
+.font-aw {
+  height: 40px;
+  width: 40px;
+}
+/* .best-qua:hover {
+  background-color: #2d7dd2 !important;
+  color: white !important;
+}
+.exper-ad:hover {
+  background-color: white !important;
+  color: #2d7dd2 !important;
+} */
+.title-about {
+  color: #f45d01;
+  font-weight: 700;
+}
+.title-head {
+  font-weight: 700 !important;
+}
+.btn-read-about {
+  height: 50px !important;
+  width: 120px !important;
+  border: none;
+  transition: 0.5s all ease;
+}
+.btn-read-about:hover {
+  background-color: #f45d01;
+}
+#service {
+  background-color: aliceblue;
+}
+.ser span {
+  color: #f45d01;
+  font-size: 30px;
+}
+.ser p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.ser:hover span {
+  color: #2d7dd2;
+}
+.details-grid {
+  /* transition: 0.5s all ease; */
+  padding: 20px 5px;
+  border-radius: 10px;
+}
+.details-grid span {
+  font-size: 30px;
+  color: #2d7dd2;
+}
+.details-grid:hover {
+  border-color: #2d7dd2;
+  box-shadow: 0px 40px 90px rgb(221, 214, 214);
+  border-bottom: solid;
+  background-color: rgba(231, 222, 222, 0.056);
+}
+/* ============ service provider =========== */
+.service-p-bg {
+  background-image: url(../Images/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+  color: white;
+}
+.service-p-bg::before {
+  content: "";
+  background-color: #3d3c3cc7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+}
+
+.service-provider .service-p-bg h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service-provider .service-p-info {
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 5px solid transparent;
+}
+.service-provider .service-p-info span {
+  font-size: 30px;
+  color: orangered;
+}
+.service-provider .service-p-info span:hover {
+  color: magenta;
+}
+.service-provider .service-p-info:hover {
+  border-bottom-color: orangered;
+  transform: 0.5s all ease;
+}
+.service-provider form {
+  background-color: white;
+  color: black;
+  padding: 35px;
+}
+.service-provider .get-start {
+  background-color: orangered;
+  color: white;
+  font-weight: 700;
+}
+.service-provider .get-start:hover {
+  background-color: #2d7dd2;
+}
+
+/* testinomials */
+.testi .headings {
+  display: grid;
+  justify-items: center;
+  /* width: 50%; */
+}
+.testi .headings p {
+  width: 50%;
+}
+.testi .testi-info-data {
+  display: flex;
+}
+.testi .testi-info-data {
+  display: flex;
+}
+.footer li {
+  line-height: 30px;
+}
