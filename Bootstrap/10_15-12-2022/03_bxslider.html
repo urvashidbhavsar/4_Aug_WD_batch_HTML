@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css"
+    />
+    <script>
+      $(function () {
+        $(".bxslider").bxSlider({
+          slideWidth: 600,
+        });
+      });
+    </script>
+    <style>
+      img {
+        height: 300px;
+        width: 700px;
+      }
+      .right-img {
+        width: 50%;
+      }
+      .text {
+        width: 50%;
+        background-color: aqua;
+      }
+      .img-1 {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bxslider">
+      <div class="img-1">
+        <div class="text"><h1>image 1</h1></div>
+        <div class="right-img">
+          <img src="bootstrap_webpage/Images/banner1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="img-1">
+        <div class="text"><h2>image 2</h2></div>
+        <div class="right-img">
+          <img src="bootstrap_webpage/Images/banner4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="img-1">
+        <div class="text"><h1>image 3</h1></div>
+        <div class="right-img">
+          <img src="bootstrap_webpage/Images/banner3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

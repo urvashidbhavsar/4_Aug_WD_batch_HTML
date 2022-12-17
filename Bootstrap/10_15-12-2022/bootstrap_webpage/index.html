@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font cdn -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Verdana"
+    />
+    <!--bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="Custom_CSS/style.css" />
+    <!-- custom media query -->
+    <link rel="stylesheet" href="Custom_CSS/mediaQuery.css" />
+  </head>
+  <body>
+    <!-- header-title -->
+    <section id="header-title">
+      <div class="header-con">
+        <div class="container container-lg container-md container-sm">
+          <div class="row p-3">
+            <div class="col-auto col-sm-12 col-md-12 col-lg-8 hide-con">
+              <div class="list-unstyled d-flex align-items-center">
+                <li class="p-2">
+                  <a href="" class="text-white text-decoration-none">
+                    <span class="fa-solid fa-clock"></span>
+                    Monday - Friday: 10:00 - 18:00
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white text-decoration-none">
+                    <span class="fa-solid fa-envelope"></span>
+                    mail@company.com
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white text-decoration-none">
+                    <span class="fa-solid fa-phone"></span>
+                    +142 5897555
+                  </a>
+                </li>
+              </div>
+            </div>
+            <div class="col-auto col-sm-12 col-md-12 col-lg-4">
+              <div
+                class="list-unstyled d-flex align-items-center justify-content-end"
+              >
+                <li class="p-2">
+                  <a href="" class="text-white">
+                    <span class="fa-brands fa-facebook-f"></span>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white">
+                    <span class="fa-brands fa-instagram"></span>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white">
+                    <span class="fa-brands fa-twitter"></span>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white">
+                    <span class="fa-brands fa-vimeo-v"></span>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="" class="text-white">
+                    <span class="fa-brands fa-linkedin-in"></span>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a
+                    href=""
+                    class="text-white"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#SearchBar"
+                    aria-controls="offcanvasTop"
+                  >
+                    <span class="fa-solid fa-magnifying-glass"></span>
+                  </a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg header-nav">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Clean<span>Freshly</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: #f45d01"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Service</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-black"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Landing Page</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black">Contact</a>
+            </li>
+            <li>
+              <button
+                class="btn-ser"
+                type="submit"
+                data-bs-toggle="modal"
+                data-bs-target="#RegistrationModal"
+              >
+                Registration
+              </button>
+            </li>
+            <li>
+              <button
+                class="btn-ser"
+                type="submit"
+                data-bs-toggle="modal"
+                data-bs-target="#LoginPage"
+              >
+                Login
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- owl carousel bootstrap -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade slide-images"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="img-1 img-fluid"></div>
+          <!-- <img
+            src="Images/banner1.jpg"
+            class="d-block w-100 h-75 img-1 img-fluid"
+            alt="..."
+          /> -->
+          <div class="content">
+            <p>Fast and Efficient</p>
+            <h1>The Superier Choice for Commercial cleaning</h1>
+            <button class="btn btn-read">Read more</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img-2 img-fluid"></div>
+          <!-- <img
+            src="Images/banner3.jpg"
+            class="d-block w-100 h-75 img-1 img-fluid"
+            alt="..."
+          /> -->
+          <div class="content">
+            <p>Fast and Efficient</p>
+            <h1>Heating, Coolling and plumbing services</h1>
+            <button class="btn btn-read">Read More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img-3 img-fluid"></div>
+          <!-- <img
+            src="Images/banner4.jpg"
+            class="d-block w-100 h-75 img-1 img-fluid"
+            alt="..."
+          /> -->
+          <div class="content">
+            <p>Fast and Efficient</p>
+            <h1>Quality Service for Quality Homes</h1>
+            <button class="btn btn-read">Read More</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- carousel information -->
+    <div class="caro-infor">
+      <div class="container">
+        <div class="row text-center">
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 col-auto p-5 bg-white best-qua"
+          >
+            <div class="font-aw bg-primary text-white mx-auto rounded-5 pt-2">
+              <span class="fa-solid fa-bath"></span>
+            </div>
+            <h4 class="pt-2">
+              <a href="" class="text-primary">Best Quality</a>
+            </h4>
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              beatae aut nihil architecto magni
+            </p>
+          </div>
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 col-auto p-5 bg-primary exper-ad"
+          >
+            <div class="font-aw bg-white text-primary mx-auto rounded-5 pt-2">
+              <span class="fa-solid fa-gears"></span>
+            </div>
+            <h4 class="pt-2">
+              <a href="" class="text-white">Expert Advise</a>
+            </h4>
+            <p class="text-white pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              beatae aut nihil architecto magni
+            </p>
+          </div>
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 col-auto p-5 bg-white labour-enter"
+          >
+            <div class="font-aw bg-primary text-white mx-auto rounded-5 pt-2">
+              <span class="fa-solid fa-users"></span>
+            </div>
+            <h4 class="pt-2">
+              <a href="" class="text-primary">Labour Enterprise</a>
+            </h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              beatae aut nihil architecto magni
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about information -->
+    <section id="#about" class="pt-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-sm-12 col-auto">
+            <img src="Images/ab1.jpg" alt="" class="img-fluid rounded-1" />
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-auto ps-lg-5 pt-3">
+            <p class="title-about">WELCOME TO OUR CLEANFRESHLY</p>
+            <h1 class="title-head">About Our Company</h1>
+            <p class="text-muted">
+              Excepteur sint occaecat non proident, sunt in culpa quis.
+              Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+              gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.
+              Phasellus lacinia
+            </p>
+            <p class="text-muted">
+              Excepteur sint occaecat non proident, sunt in culpa quis.
+              Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+              gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.
+              Phasellus lacinia
+            </p>
+            <button class="btn btn-primary rounded-5 btn-read-about">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <section id="service">
+      <div class="container pt-5">
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 col-auto pb-md-3 pb-sm-3 pb-3"
+          >
+            <h1 class="fs-1">We Providing A High Quality Services</h1>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+            <p class="text-muted">
+              Ea consequuntur illum facere aperiam sequi optio consectetur
+              adipisicing elitFuga, suscipit totam animi consequatur saepe
+              blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere
+              aperiam sequi optio consectetur adipisicing elit. Fuga, suscipit
+              totam animi consequatur saepe blanditiis.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+            <p class="text-secondary">
+              Ea consequuntur illum facere aperiam sequi optio consectetur
+              adipisicing elitFuga, suscipit totam animi consequatur saepe
+              blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere
+              aperiam sequi optio consectetur adipisicing elit. Fuga, suscipit
+              totam animi consequatur saepe blanditiis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container p-3">
+        <div class="row ser-content">
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-plug"></span>
+              <p>Electrical Work</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-paintbrush"></span>
+              <p>Painting Work</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-bed"></span>
+              <p>Furniture Work</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-shield-alt"></span>
+              <p>Washing Machine</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-paragraph"></span>
+              <p>Modular Kitchen</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 ser-con p-1">
+            <div class="ser">
+              <span class="fa-solid fa-unlink"></span>
+              <p>Carpet Cleaning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service-info -->
+    <section id="service-details">
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-auto py-2 px-5">
+            <div class="details-grid">
+              <span class="fa-solid fa-bath"></span>
+              <h3><a href="">Plumbing</a></h3>
+              <p>
+                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+                sequi optio consectetur.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-auto py-2 px-5">
+            <div class="details-grid">
+              <span
+                class="fa-solid fa-american-sign-language-interpreting"
+              ></span>
+              <h3><a href="">Repairs</a></h3>
+              <p>
+                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+                sequi optio consectetur.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-auto py-2 px-5">
+            <div class="details-grid">
+              <span class="fa-solid fa-fire-extinguisher"></span>
+              <h3><a href="">Spring</a></h3>
+              <p>
+                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+                sequi optio consectetur.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-auto py-2 px-5">
+            <div class="details-grid">
+              <span class="fa-solid fa-gavel"></span>
+              <h3><a href="">Carpenter</a></h3>
+              <p>
+                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+                sequi optio consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service provider -->
+    <section class="service-provider">
+      <div class="service-p-bg">
+        <div class="container p-5">
+          <div class="row py-3">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-auto px-4">
+              <h1 style="font-size: 3rem">
+                Professional Cleaning <br />
+                Services Provider
+              </h1>
+              <p class="py-2 fs-5">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia sed deserunt mollit anim id est laborum mollit anim
+                id est nulla.
+              </p>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto p-2">
+                  <div class="service-p-info p-4 rounded-1">
+                    <span class="fa-solid fa-phone"></span>
+                    <h4>Phone</h4>
+                    <p>+142 5897555</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto p-2">
+                  <div class="service-p-info p-4 rounded-1">
+                    <span class="fa-solid fa-envelope"></span>
+                    <h4>Email</h4>
+                    <p>xyz@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto p-2">
+                  <div class="service-p-info p-3 rounded-1">
+                    <span class="fa-solid fa-clock"></span>
+                    <h4>Opening Hours</h4>
+                    <p>10.00 to 6.00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-auto px-4 py-5">
+              <form action="" class="rounded rounded-3">
+                <div class="form-input-1 py-2">
+                  <label for="">First name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control rounded-5"
+                  />
+                </div>
+                <div class="form-input-1 py-2">
+                  <label for="">Last name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control rounded-5"
+                  />
+                </div>
+                <div class="form-input-1 py-2">
+                  <label for="">Password</label>
+                  <input
+                    type="password"
+                    name=""
+                    id=""
+                    class="form-control rounded-5"
+                  />
+                </div>
+                <div class="form-input-1 py-2">
+                  <button class="btn rounded-5 w-100 get-start">
+                    Get Started
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testi">
+      <div class="testi-head py-5">
+        <div class="headings text-center">
+          <h6 style="color: orangered">TESTIMONIALS</h6>
+          <h1 style="font-weight: 700">What Our Clients Say</h1>
+          <p class="text-muted px-lg-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sunt in
+            culpa qui officia sed deserunt mollit anim id est laborum mollit
+            anim id est nulla.
+          </p>
+        </div>
+
+        <!-- carousel for testimonials -->
+        <div class="container">
+          <div class="row">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner rounded-1">
+                <div class="carousel-item active testi-info-data">
+                  <div class="testi-info bg-primary text-white p-5">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum saepe facere sit provident! Voluptatibus, laboriosam
+                      hic dolores, expedita tempora ratione, iusto atque et
+                      temporibus error libero assumenda quos eum reiciendis.
+                    </p>
+                    <h5>DEF</h5>
+                    <p>Company name</p>
+                  </div>
+                  <div class="image-1">
+                    <img
+                      src="Images/ab1.jpg"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item testi-info-data">
+                  <div class="testi-info bg-primary text-white p-5">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum saepe facere sit provident! Voluptatibus, laboriosam
+                      hic dolores, expedita tempora ratione, iusto atque et
+                      temporibus error libero assumenda quos eum reiciendis.
+                    </p>
+                    <h5>XYZ</h5>
+                    <p>Company name</p>
+                  </div>
+                  <div class="image-1">
+                    <img
+                      src="Images/banner3.jpg"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item testi-info-data">
+                  <div class="testi-info bg-primary text-white p-5">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum saepe facere sit provident! Voluptatibus, laboriosam
+                      hic dolores, expedita tempora ratione, iusto atque et
+                      temporibus error libero assumenda quos eum reiciendis.
+                    </p>
+                    <h5>ABC</h5>
+                    <p>Company name</p>
+                  </div>
+                  <div class="image-1">
+                    <img
+                      src="Images/banner4.jpg"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="footer"
+      style="background-color: rgb(36, 35, 35); color: white"
+    >
+      <div class="container py-4">
+        <!-- logo -->
+        <div
+          class="row border border-1 border-top-0 border-start-0 border-end-0"
+        >
+          <div class="col-lg-9 col-md-6 col-sm-12 col-auto">
+            <h1>
+              <a href="" class="text-white"
+                >Clean<span style="color: orangered">Freshly</span></a
+              >
+            </h1>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-auto">
+            <div class="row py-3">
+              <div class="col-auto"></div>
+              <div class="col-auto">
+                <span class="fa-brands fa-facebook-f"></span>
+              </div>
+              <div class="col-auto">
+                <span class="fa-brands fa-twitter"></span>
+              </div>
+              <div class="col-auto">
+                <span class="fa-brands fa-google-plus-g"></span>
+              </div>
+              <div class="col-auto">
+                <span class="fa-brands fa-linkedin-in"></span>
+              </div>
+              <div class="col-auto">
+                <span class="fa-brands fa-instagram"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- extra links -->
+        <div class="row py-3">
+          <div class="col-lg-2 col-md-6 col-sm-12 col-auto">
+            <h4 class="pb-3">Extra Links</h4>
+            <ul class="list-unstyled">
+              <li>About Company</li>
+              <li>Our Services</li>
+              <li>Recent Projects List</li>
+              <li>Latest News Blog</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+            <h4 class="pb-3">List Of Services</h4>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                <ul class="list-unstyled">
+                  <li>About Company</li>
+                  <li>Our Services</li>
+                  <li>Recent Projects List</li>
+                  <li>Latest News Blog</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                <ul class="list-unstyled">
+                  <li>About Company</li>
+                  <li>Our Services</li>
+                  <li>Recent Projects List</li>
+                  <li>Latest News Blog</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 col-auto">
+            <h4 class="pb-3">Support</h4>
+            <ul class="list-unstyled">
+              <li>About Company</li>
+              <li>Our Services</li>
+              <li>Recent Projects List</li>
+              <li>Latest News Blog</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 col-auto">
+            <h4 class="pb-3">Working Hours</h4>
+            <ul class="list-unstyled">
+              <li>About Company</li>
+              <li>Our Services</li>
+              <li>Recent Projects List</li>
+              <li>Latest News Blog</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="text-center pb-3">
+        <span class=""
+          >© 2020 Cleanfreshly. All rights reserved | Designed by
+          W3layouts</span
+        >
+      </div>
+    </section>
+
+    <!--Registration Modal -->
+    <div
+      class="modal fade"
+      id="RegistrationModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-xl modal-fullscreen-xl-down modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down modal-sm modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Registration Page
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-auto col-sm-12 col-md-6 col-lg-4">
+                <label for="" class="form-label">Full Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto col-sm-12 col-md-6 col-lg-4 p-1">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="col-auto col-sm-12 col-md-6 col-lg-4 p-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Middle name"
+                />
+              </div>
+              <div class="col-auto col-sm-12 col-md-6 col-lg-4 p-1">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+
+            <!-- gender -->
+            <div class="row">
+              <div class="col-auto">
+                <label for="" class="form-label">Gender</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <div class="form-check-inline">
+                  <input
+                    type="radio"
+                    name="gen"
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check-inline">
+                  <input
+                    type="radio"
+                    name="gen"
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-check-label">Female</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- qualification -->
+            <div class="row">
+              <div class="col-auto">
+                <label for="">Qualification </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-auto">
+                <div class="form-check-inline">
+                  <input
+                    type="checkbox"
+                    name="c1"
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-check-label">10th</label>
+                </div>
+                <div class="form-check-inline">
+                  <input
+                    type="checkbox"
+                    name="c2"
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-check-label">12th</label>
+                </div>
+                <div class="form-check-inline">
+                  <input
+                    type="checkbox"
+                    name="c3"
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-check-label">Bachlor</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- address labels -->
+            <div class="row">
+              <div class="col-lg-3 col-sm-12 col-md-6 col-auto p-1">
+                <label for="" class="form-label">State</label>
+                <select name="state" id="" class="form-select">
+                  <option value="">---select---</option>
+                  <option value="">Gujarat</option>
+                  <option value="">Rajasthan</option>
+                </select>
+              </div>
+              <div class="col-lg-3 col-sm-12 col-md-6 col-auto p-1">
+                <label for="" class="form-label">City</label>
+                <select name="city" id="" class="form-select">
+                  <option value="">---select---</option>
+                  <option value="">Surat</option>
+                  <option value="">Baroda</option>
+                </select>
+              </div>
+              <div class="col-lg-2 col-sm-12 col-md-6 col-auto p-1">
+                <label for="" class="form-label">pincode</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  maxlength="6"
+                  placeholder="000000"
+                />
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6 col-auto p-1">
+                <label for="" class="form-label">Address</label>
+                <textarea
+                  name="add"
+                  id=""
+                  cols="30"
+                  rows="4"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- email - password -->
+            <div class="row">
+              <div class="col-lg-1 col-md-6 col-sm-12 col-auto p-1">
+                <label for="" class="form-label">Email</label>
+              </div>
+              <div class="col-lg-5 col-md-6 col-sm-12 col-auto p-1">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="Enter only username"
+                  />
+                  <label for="" class="input-group-text">@gmail.com</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-1 col-md-6 col-sm-12 col-auto p-1">
+                <label for="" class="form-label">Password</label>
+              </div>
+              <div class="col-lg-5 col-md-6 col-sm-12 col-auto p-1">
+                <input type="password" name="" id="" class="form-control" />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Register</button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- login modal -->
+    <div
+      class="modal fade modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down modal-sm"
+      id="LoginPage"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Login Page
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-12 col-auto py-2">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="Enter username or email"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-12 col-auto py-2">
+                  <input
+                    type="password"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="Enter Password"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-auto">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />
+                    <label for="" class="form-label">Show Password</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Login</button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- offcanvas for search -->
+    <div
+      class="offcanvas offcanvas-top"
+      tabindex="-1"
+      id="SearchBar"
+      aria-labelledby="offcanvasTopLabel"
+      style="background-color: rgba(0, 0, 0, 0.471)"
+    >
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title text-white" id="offcanvasTopLabel">
+          Search Here
+        </h2>
+        <button
+          type="button"
+          class="btn-close bg-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="container">
+          <form action="" class="d-flex justify-content-center">
+            <div class="input-group" style="width: 50%">
+              <input type="text" name="" id="" class="form-control" />
+              <button class="btn btn-primary input-group-text">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
